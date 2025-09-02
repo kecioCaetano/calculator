@@ -1,0 +1,54 @@
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+.CalculatorFrame{
+    display: flex;
+    flex-direction: column;
+  
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.display{
+    display: flex;
+    flex: 1;
+    border: 1px solid rgb(131, 130, 130);;
+    background-color: rgb(208, 207, 207);
+    font-size: 50px;
+    
+} 
+
+.buttonsFrame{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.regularRow{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.buttons{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border: 1px solid white;
+    border-radius: 10%;
+    font-size: 25px;
+    
+}
