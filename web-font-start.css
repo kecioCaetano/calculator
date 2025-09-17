@@ -1,0 +1,49 @@
+/* General setup */
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('fonts/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('fonts/KaushanScript-Regular.woff2') format('woff2'),
+        url('fonts/KaushanScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  /* font-family: Alex Brush,Kaushan Script ; */
+  font-family: Bitcount Single Ink;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  /* 1.4rem is 14px because the root font-size is 10px */
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
