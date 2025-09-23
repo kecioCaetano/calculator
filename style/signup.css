@@ -1,3 +1,93 @@
-body{
-    background-color: beige;
+/* General setup */
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('../fonts/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('../fonts/KaushanScript-Regular.woff2') format('woff2'),
+        url('../fonts/KaushanScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+/* --global variables */
+--color: black;
+/* font-family: Alex Brush,Kaushan Script; */
+}
+
+* ::before,
+* ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    /* padding: 10px; */
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    height: 100vh;
+    background-image: url(/images/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    background-color: rgb(0 0 0/ 50%);
+    text-align: center;
+    color: white;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.introduction{
+    padding: 2rem;
+}
+
+.form-container{
+
+   background-color: red;
+   display:flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+form{
+     display: flex;
+     padding: 2rem;
+}
+
+.account{
+     padding: 2rem; */
+}
+
+
+ form div[class*="row"]{
+    display: flex;
+    flex-direction: column;
+}
+
+form div[class*="col"]{
+    display: flex;
+    flex-direction: column;
+} 
